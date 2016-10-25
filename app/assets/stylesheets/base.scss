@@ -1,0 +1,44 @@
+@import '~app/assets/stylesheets/variables.scss';
+@import '~app/assets/stylesheets/normalize.scss';
+
+:global {
+
+  html {
+    box-sizing: border-box;
+    // Changing to this value so the rems are easier to calculate
+    // 1.4rem = 14px
+    // 2.4rem = 24px
+    font-size: 62.5%;
+    position: relative;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+    font-weight: 100;
+  }
+
+  body {
+    position: relative;
+    font-family: 'ProximaNova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+}
